@@ -1,0 +1,171 @@
+/* === Estilos generales para todas las páginas de Nutrición === */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* === Banner personalizado para Nutrición === */
+.banner-nutricion {
+    text-align: center;
+    background: #ffb400;
+    color: white;
+    padding: 60px 20px;
+}
+
+.banner-nutricion h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.banner-nutricion p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* === Contenedor general de contenido === */
+main {
+    padding: 30px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* === Estilo de artículos (vista previa) === */
+.articulos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.articulo {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.articulo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.articulo img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-width: 400px;
+    margin-bottom: 15px;
+}
+
+.articulo h2 {
+    font-size: 1.5rem;
+    color: #2c7a7b;
+}
+
+.articulo p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.articulo .btn {
+    background-color: #2c7a7b;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.articulo .btn:hover {
+    background-color: #1a5a58;
+}
+
+/* === Estilos para las páginas de artículos individuales === */
+.contenido-articulo {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+}
+
+.contenido-articulo h2 {
+    color: #2c7a7b;
+    margin-bottom: 15px;
+}
+
+.contenido-articulo p {
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+}
+
+.contenido-articulo ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.contenido-articulo ul li {
+    list-style: disc;
+    margin-bottom: 8px;
+}
+
+/* === Botón de regreso (opcional) === */
+.btn-volver {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffb400;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-volver:hover {
+    background-color: #e19a00;
+}
+
+/* === Estilo para cada receta individual === */
+.receta {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px; /* Separa las recetas */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Agregar espacio adicional entre el título de la receta y los demás elementos */
+.receta h2 {
+    font-size: 1.8rem;
+    color: #2c7a7b;
+}
+
+/* Mejorar la imagen dentro de cada receta */
+.receta img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Ajustar el tamaño de la imagen en el artículo de dieta equilibrada */
+.cuerpo-articulo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
