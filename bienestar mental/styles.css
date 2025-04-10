@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E3F2FD;
+    color: #2E7D32;
+    margin: 0;
+    padding: 20px;
+}
+
+#bienestar-mental {
+    max-width: 800px;
+    margin: auto;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #1565C0;
+}
+
+.recursos, .testimonios {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #1E88E5;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}
