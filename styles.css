@@ -1,0 +1,180 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos de la barra de navegación */
+header {
+    background-color: #2c7a7b;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffb400;
+}
+
+/* Estilos del buscador */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-bar input {
+    border: none;
+    padding: 8px 12px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.search-bar button {
+    background: #ffb400;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.search-bar button:hover {
+    background: #e09e00;
+}
+
+/* Banner principal */
+.banner {
+    text-align: center;
+    background: linear-gradient(rgba(29, 28, 28, 0.8), rgba(17, 17, 17, 0.5)),
+                url('primera-riqueza-salud-1024x1024.jpg') no-repeat center/cover;
+    color: white;
+    padding: 100px 8px;
+    min-height: 600px; /* Nueva línea agregada */
+}
+
+
+.banner h1 {
+    font-size: 4.5em;
+    margin-bottom: 10px;
+}
+
+.banner .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #ffb400;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.2s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.banner .btn:hover {
+    background-color: #e09e00;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.banner .btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Sección de destacados */
+.destacados {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card h2 {
+    color: #2c7a7b;
+}
+
+/* Sección educativa */
+.educativo {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e7f7f6;
+}
+
+.educativo h2 {
+    font-size: 2rem;
+    color: #2c7a7b;
+    margin-bottom: 20px;
+}
+
+.educativo p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.educativo .btn {
+    background-color: #ffb400;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.educativo .btn:hover {
+    background-color: #e09e00;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c7a7b;
+    color: white;
+    margin-top: 20px;
+}

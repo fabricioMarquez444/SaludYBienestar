@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienestar Mental</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div id="bienestar-mental" class="p-4">
+            
+            <style>
+                body {
+                    background: #f0f8ff;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
+            
+                #bienestar-mental {
+                    background-color: #ffffff;
+                    border-radius: 15px;
+                    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                }
+            
+                nav.center-buttons {
+                    text-align: center;
+                    margin: 30px 0;
+                }
+            
+                nav.center-buttons a {
+                    margin: 10px;
+                    display: inline-block;
+                    padding: 12px 24px;
+                    font-weight: 600;
+                    border-radius: 30px;
+                    color: #fff;
+                    text-decoration: none;
+                    transition: all 0.3s ease;
+                    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                    border: none;
+                }
+            
+                nav.center-buttons a.btn-primary {
+                    background: linear-gradient(135deg, #2980b9, #3498db);
+                }
+            
+                nav.center-buttons a.btn-success {
+                    background: linear-gradient(135deg, #27ae60, #2ecc71);
+                }
+            
+                nav.center-buttons a.btn-danger {
+                    background: linear-gradient(135deg, #c0392b, #e74c3c);
+                }
+            
+                nav.center-buttons a.btn-info {
+                    background: linear-gradient(135deg, #16a085, #1abc9c);
+                }
+            
+                nav.center-buttons a:hover {
+                    transform: translateY(-3px);
+                    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+                    opacity: 0.9;
+                }
+            
+                .banner-bienestar img {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 15px;
+                    margin-bottom: 20px;
+                }
+            
+                h2.text-center {
+                    font-size: 2.5rem;
+                    color: #2c3e50;
+                    margin-bottom: 20px;
+                }
+            
+                .recursos h3,
+                .testimonios h3 {
+                    color: #34495e;
+                    margin-top: 30px;
+                    margin-bottom: 15px;
+                }
+            
+                .accordion-button {
+                    background-color: #e3f2fd;
+                    color: #0d47a1;
+                    font-weight: bold;
+                }
+            
+                .accordion-button:not(.collapsed) {
+                    background-color: #bbdefb;
+                }
+            
+                .accordion-body {
+                    background-color: #fefefe;
+                    border-left: 4px solid #90caf9;
+                }
+            
+                .accordion-body p {
+                    margin-bottom: 10px;
+                }
+            
+                .accordion-body ul {
+                    padding-left: 20px;
+                }
+            
+                .accordion-body a {
+                    color: #0077cc;
+                    text-decoration: none;
+                }
+            
+                .accordion-body a:hover {
+                    text-decoration: underline;
+                }
+            
+                .testimonios p {
+                    font-style: italic;
+                    background-color: #e8f5e9;
+                    padding: 10px 15px;
+                    border-radius: 8px;
+                    border-left: 4px solid #66bb6a;
+                    margin-bottom: 10px;
+                }
+            </style>
+            
+            <nav class="center-buttons">
+                <a href="../inicio.html" class="btn btn-primary">Inicio</a>
+                <a href="../nutricion/nutricion.html" class="btn btn-success">Sección de Nutrición</a>
+                <a href="/Prevención de Enfermedades/prevención.html" class="btn btn-danger">Prevención</a>
+                <a href="/Recursos/recursos.html" class="btn btn-info">Ir a Recursos</a>
+            </nav>
+            
+            <h2 class="text-center">Bienestar Mental</h2>
+            <div class="banner-bienestar mental">
+                <img src="salud-mental.jpg" alt="Banner de Recursos Adicionales">
+            </div>
+            <p class="text-center">Recursos y consejos para mejorar tu bienestar emocional y psicológico.</p>
+            
+            
+            
+            <div class="recursos mt-4">
+                <h3>Recursos de Apoyo</h3>
+                <div class="accordion" id="recursosAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingRelaxation">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRelaxation" aria-expanded="true" aria-controls="collapseRelaxation">
+                                Técnicas de relajación
+                            </button>
+                        </h2>
+                        <div id="collapseRelaxation" class="accordion-collapse collapse show" aria-labelledby="headingRelaxation" data-bs-parent="#recursosAccordion">
+                            <div class="accordion-body">
+                                <p>Las técnicas de relajación ayudan a reducir el estrés y mejorar la salud mental. Algunas opciones incluyen la respiración profunda, relajación muscular progresiva y visualización guiada.</p>
+                                <ul>
+                                    <li><a href="https://psicologiaymente.com/clinica/respiracion-diafragmatica" target="_blank">respiración diafragmática</a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=I5tip6L5fOQ" target="_blank">Técnicas de respiración para la relajación</a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=C9heOYFxjAI" target="_blank">Podcast sobre relajación y bienestar</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingMeditation">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMeditation" aria-expanded="false" aria-controls="collapseMeditation">
+                                Meditación guiada
+                            </button>
+                        </h2>
+                        <div id="collapseMeditation" class="accordion-collapse collapse" aria-labelledby="headingMeditation" data-bs-parent="#recursosAccordion">
+                            <div class="accordion-body">
+                                <p>La meditación ayuda a mejorar el enfoque y reducir la ansiedad. Existen diversas formas como mindfulness, meditación trascendental y guiada para dormir.</p>
+                                <ul>
+                                    <li><a href="https://psicologiaymente.com/meditacion/meditacion-beneficios-neurociencia" target="_blank">Beneficios de la meditación</a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=3oCC4NDgYrY&t=4s" target="_blank">Meditación guiada para principiantes</a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=6dkngmrYNto&t=44s" target="_blank">Podcast sobre la meditación</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingExercise">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExercise" aria-expanded="false" aria-controls="collapseExercise">
+                                Ejercicio y bienestar
+                            </button>
+                        </h2>
+                        <div id="collapseExercise" class="accordion-collapse collapse" aria-labelledby="headingExercise" data-bs-parent="#recursosAccordion">
+                            <div class="accordion-body">
+                                <p>El ejercicio físico mejora la salud mental y el bienestar general. Actividades como yoga, caminatas y estiramientos pueden ayudar.</p>
+                                <ul>
+                                    <li><a href="https://tucoachdeexito.com/ejercicio-mejora-estado-animo/" target="_blank">Cómo el ejercicio mejora tu estado de ánimo</a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=v7AYKMP6rOE" target="_blank">Rutina de yoga para la relajación</a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=pBLcLSsIYGs" target="_blank">Podcast sobre ejercicio y bienestar</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonios mt-4">
+                <h3>Testimonios</h3>
+                <p>"Desde que practico la meditación, mi vida ha cambiado completamente." - Ana</p>
+                <p>"El ejercicio diario ha mejorado mi estado de ánimo y bienestar." - Carlos</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

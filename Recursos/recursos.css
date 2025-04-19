@@ -1,0 +1,113 @@
+/* General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5fcfa;
+    margin: 0;
+    padding: 0;
+    color: #2e3d49;
+}
+
+/* Encabezado */
+header {
+    background-color: #00695c;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1.5em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #b2dfdb;
+}
+
+/* Contenido principal */
+main {
+    padding: 2em;
+}
+
+/* Títulos */
+h1, h2 {
+    color: #004d40;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2.2em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.6em;
+    border-bottom: 2px solid #80cbc4;
+    padding-bottom: 0.3em;
+}
+
+/* Secciones */
+section.recursos > section {
+    margin-bottom: 2.5em;
+    background-color: #ffffff;
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Banner */
+.banner-recursos img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 1.5em;
+}
+
+/* Listas */
+ul {
+    padding-left: 1.2em;
+}
+
+ul li {
+    margin-bottom: 0.7em;
+}
+
+ul li a {
+    color: #00796b;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #004d40;
+    text-decoration: underline;
+}
+
+/* Párrafos */
+p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #004d40;
+    color: #ffffff;
+    margin-top: 3em;
+    font-size: 0.9em;
+}

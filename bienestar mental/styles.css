@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* azul muy suave */
+    color: #2e7d6b; /* verde azulado calmante */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Banner en sección de recursos */
+.banner-bienestar {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.banner-bienestar img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+h2:hover, h3:hover {
+    color: #00ff55; /* Color al pasar el cursor */
+}
+
+.recursos, .testimonios {
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #1d05f7;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Botón estilo btn-info */
+.btn-info {
+    background-color: #17a2b8; /* azul claro tipo Bootstrap */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+}
+.btn-danger {
+    background-color: #e53935; /* rojo suave */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn-danger:hover {
+    background-color: #c62828;
+}
+
